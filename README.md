@@ -1,5 +1,4 @@
 # Automating Jenkins Server Deployment with Terraform for Efficient CI/CD Workflows
-# https://medium.com/@sarrabarnett/automating-jenkins-server-deployment-with-terraform-for-efficient-ci-cd-workflows-1d38882c24dd 
 
 In this project, I am using Terraform to deploy an EC2 instance in my Default VPC and bootstrap it with a script that installs and starts Jenkins. I’ll create a Security Group and assign it to the Jenkins EC2 instance, allowing traffic on port 22 and 8080. I will also create an S3 bucket for Jenkins artifacts that is not publicly accessible. Lastly, I’ll create an IAM Role that provides S3 read/write access for the Jenkins Server and assign it to the Jenkins Server EC2 instance.
 
